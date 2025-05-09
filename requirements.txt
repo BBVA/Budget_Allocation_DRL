@@ -1,0 +1,7 @@
+tensorflow
+scipy
+yfinance
+numpy
+pandas
+matplotlib
+pypfopt
