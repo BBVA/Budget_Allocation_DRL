@@ -8,7 +8,7 @@ By interacting with an environment like in Figure 1,  and making decisions throu
 
 $$
 \begin{equation}
-\pi^* = \arg\max_{\pi} \mathbb{E}_{\tau} \left[ \sum_{t=0}^\infty \gamma^t R_t \right],
+\pi^* = \arg\max_{\pi} \mathbb{E}_{\tau} \left[ \sum_{t=0}^\infty \gamma^t R_t \right]
 \end{equation}
 $$
 
@@ -53,16 +53,16 @@ Readers should be aware that the state representations used in the Markov Decisi
 
 # Reference
 
-[1] Richard S. Sutton and Andrew G. Barto, Reinforcement Learning An Introduction, The MIT Press. 2014.
+[1] Richard S. Sutton and Andrew G. Barto, Reinforcement Learning An Introduction, The MIT Press 2014.
 
-[2] Yves J. Hilpisch, Reinforcement Learning for Finance, O'Reilly Media, Inc. October 2024. Link. 
+[2] Yves J. Hilpisch, Reinforcement Learning for Finance, O'Reilly Media, Inc. October 2024. 
 
-[3] Trade That Swing. Average Historical Stock Market Returns for S&P 500: 5-Year up to 150-Year Averages. Accessed January 14, 2025. Link.
+[3] Trade That Swing. Average Historical Stock Market Returns for S&P 500: 5-Year up to 150-Year Averages. Accessed January 14, 2025. 
 
-[4] Trade That Swing. Historical Average Returns for NASDAQ 100 Index (QQQ).  Accessed January 14, 2025. Link.
+[4] Trade That Swing. Historical Average Returns for NASDAQ 100 Index (QQQ).  Accessed January 14, 2025. 
 
-[5] Benhamou, E., Saltiel, D., Ungari, S., & Mukhopadhyay, A. (2020). Bridging the gap between Markowitz planning and deep reinforcement learning. arXiv preprint arXiv:2010.09108. Link.
+[5] Benhamou, E., Saltiel, D., Ungari, S., & Mukhopadhyay, A. (2020). Bridging the gap between Markowitz planning and deep reinforcement learning. arXiv preprint arXiv:2010.09108.
 
-[6] AMSFlow. NASDAQ 100 Historical Returns. Accessed April 8, 2025. Link.
+[6] AMSFlow. NASDAQ 100 Historical Returns. Accessed April 8, 2025. 
 
-[7] AMSFlow. S&P 500 Historical Returns. Accessed April 8, 2025. Link.
+[7] AMSFlow. S&P 500 Historical Returns. Accessed April 8, 2025.
