@@ -8,7 +8,7 @@ By interacting with an environment like in Figure 1,  and making decisions throu
 
 $$
 \begin{equation}
-\pi^* = \arg \max_{\pi} 
+\pi^* = \arg \max_{\pi} \mathbb{E}_{\tau} \sum_{t=0}^\infty 
 \end{equation}
 $$
 
