@@ -8,7 +8,7 @@ By interacting with an environment like in Figure 1,  and making decisions throu
 
 $$
 \begin{equation}
-\pi^* = \text{arg} \max_{\pi} \mathbb{E}_{\tau} \left[ \sum_{t=0}^\infty \gamma^t R_t \right]
+\pi^* = \arg \max_{\pi} 
 \end{equation}
 $$
 
@@ -66,3 +66,6 @@ Readers should be aware that the state representations used in the Markov Decisi
 [6] AMSFlow. NASDAQ 100 Historical Returns. Accessed April 8, 2025. 
 
 [7] AMSFlow. S&P 500 Historical Returns. Accessed April 8, 2025.
+
+
+$\mathbb{E}_{\tau} \left[ \sum_{t=0}^\infty \gamma^t R_t \right]$
