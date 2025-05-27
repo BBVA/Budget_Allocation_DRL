@@ -4,7 +4,11 @@ Advancements in budget allocation within portfolio management have been signific
 
 ![Image taken from Richard S. Sutton and Andrew G. Barto. Reinforcement Learning An Introduction.](img/rl_life_cycle.png)
 
-By interacting with an environment like in Figure 1,  and making decisions through a policy 𝜋 that takes actions. The objective is to find the optimal policy 𝜋* that maximizes the future rewards.
+By interacting with an environment like in Figure 1,  and making decisions through a policy 𝜋 that takes actions. The objective is to find the optimal policy $\pi^*$ that maximizes the future rewards.
+
+\begin{equation}
+\pi^* = \arg\max_{\pi} \mathbb{E}_{\tau} \left[ \sum_{t=0}^\infty \gamma^t R_t \right],
+\end{equation}
 
 It is well known that today's DeepRL algorithms are able to learn advanced strategies, achieved through algorithms such as Deep Q-learning, Policy Gradient, Actor-Critic models, together with exploration/exploitation trade-off. These strategies can also be transferred to industrial applications such as robotics, gaming, finance, healthcare, among others.
 Specifically for the problem of budget allocation in investment portfolios, we define our Markov Decision Process (MDP) as follows:
